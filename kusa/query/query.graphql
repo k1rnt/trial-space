@@ -1,5 +1,5 @@
-query($userName:String!) {
-  user(login: $userName){
+query {
+  user(login: "k1rnt"){
     contributionsCollection {
       contributionCalendar {
         totalContributions
